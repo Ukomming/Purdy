@@ -65,7 +65,7 @@ export default function Header() {
 
           <li tabIndex={0}>
             <details>
-              <summary>Galary</summary>
+              <summary>Gallery</summary>
               <ul className="p-2">
                 <li>
                   <Link href={"/gallery"}>Pictures</Link>
