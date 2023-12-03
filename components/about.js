@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <>
+    <div>
       <h2 className="  text-center mt-20 sm:text-6xl text-4xl text-green-500 capitalize  underline hover:decoration-4">
         {" "}
         About us
@@ -13,7 +13,7 @@ export default function About() {
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="h-full p-4 lg:w-1/3">
           <div className=" bg-gray-100 px-8 pt-16 pb-16 relative">
-            <h2 className=" flex gap-3 text-base mb-1 text-red-500">
+            <h2 className=" flex gap-3 text-base mb-1 text-red-500 dark:text-black">
               <Image
                 src="/location_map_map pin_marker_pin_icon.svg"
                 width={30}
@@ -22,10 +22,10 @@ export default function About() {
               />
               Location
             </h2>
-            <h1 className="title-font sm:text-2xl text-xl  mb-3">
+            <h1 className="title-font sm:text-2xl text-xl  mb-3 dark:text-black">
               ADDA KASSEH{" "}
             </h1>
-            <p className="mb-3">
+            <p className="mb-3 dark:text-black">
               OPPOSITE GREEN HEIGHT HOTEL , NEAR AWILLOW'S HOUSE
             </p>
             <Link
@@ -38,7 +38,7 @@ export default function About() {
         </div>
         <div className=" h-full p-4 lg:w-1/3">
           <div className="bg-gray-100 px-8 pt-16 pb-16 relative">
-            <h2 className="flex gap-3 text-base mb-1 capitalize text-red-500">
+            <h2 className="flex gap-3 text-base mb-1 capitalize text-red-500 dark:text-black">
               <Image
                 src="/time-125.svg"
                 width={35}
@@ -50,11 +50,11 @@ export default function About() {
             <h1 className="title-font sm:text-2xl text-xl  mb-3 text-green-500">
               MONDAY - FRIDAY{" "}
             </h1>
-            <p className="mb-3">7:00AM - 5:00PM</p>
+            <p className="mb-3 dark:text-black">7:00AM - 5:00PM</p>
             <h1 className="title-font sm:text-2xl text-xl  mb-3 text-green-500">
               SATURDAYS{" "}
             </h1>
-            <p className="mb-3">7:30AM - 2:00PM</p>
+            <p className="mb-3 dark:text-black">7:30AM - 2:00PM</p>
             <Link
               href="/about"
               className="text-indigo-500 underline inline-flex items-center"
@@ -78,14 +78,14 @@ export default function About() {
             <h1 className="title-font sm:text-2xl text-xl mb-3 text-green-500">
               Telephone line
             </h1>
-            <p className="mb-3">0500 407 426</p>
-            <p className="mb-3">0548349588</p>
+            <p className="mb-3 dark:text-black ">0500 407 426</p>
+            <p className="mb-3 dark:text-black ">0548349588</p>
             <h1 className="title-font sm:text-2xl text-xl mb-3 text-green-500">
               WhatsApp
             </h1>
-            <p className="mb-3">0548349588</p>
+            <p className="mb-3 dark:text-black">0548349588</p>
             <h1 className="title-font sm:text-2xl text-xl mb-3 text-green-500">Email</h1>
-            <p>albertpurdy@gmail.com</p>
+            <p className="dark:text-black">albertpurdy@gmail.com</p>
             <p className="mb-3"></p>
             <Link
               href="/about"
@@ -96,6 +96,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
