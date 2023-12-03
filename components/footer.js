@@ -10,7 +10,7 @@ export default function Footer() {
           width={50}
           height={50}
           className="fill-current py-3  rounded-md"
-        />
+          />
 
         <p>
           Purdy Natural Herbal Clinic And Research Centre.
@@ -44,7 +44,7 @@ export default function Footer() {
       </nav>
       <nav>
         <header className="footer-title">Follow us</header>
-        <div className="flex flex-col gap-2 ml-8 ">
+        <div className="lg:flex lg:flex-col lg:gap-2 lg:ml-8 flex flex-row  gap-8">
           <a href="https://web.facebook.com/profile.php?id=61553721077756">
             <Image
               src={
@@ -52,35 +52,35 @@ export default function Footer() {
               }
               width={40}
               height={40}
-            />
+              />
           </a>
           <a>
             <Image
               src={"/social/instagram-1-svgrepo-com.svg"}
               width={40}
               height={40}
-            />
+              />
           </a>
           <a href="https://www.tiktok.com/@purdyherbal">
             <Image
               src={"/social/tiktok-icon-black-1-logo-svgrepo-com.svg"}
               width={40}
               height={40}
-            />
+              />
           </a>
           <a href="https://twitter.com/purdyHeabal">
             <Image
               src={"/social/twitter-svgrepo-com.svg"}
               width={40}
               height={40}
-            />
+              />
           </a>
           <a href="https://www.youtube.com/channel/UCcMdlHGrvxvyKaZta7QiSCQ">
             <Image
               src={"/social/youtube-color-svgrepo-com.svg"}
               width={40}
               height={40}
-            />
+              />
           </a>
         </div>
       </nav>
@@ -92,7 +92,7 @@ export default function Footer() {
               src={"/social/gmail-svgrepo-com.svg"}
               width={30}
               height={30}
-            />
+              />
             {" "}
             <span className="ml-2">
             albertpudy@gmail.com

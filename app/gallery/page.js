@@ -1,10 +1,13 @@
 "use-client"
 import Image from "next/image";
-export default function Galary() {
+import Link from "next/link";
+
+export default function Gallery() {
   return (
     <>
+    <Link href={'/'} className=" underline text-teal-600 lg:invisible">Back to Home Page </Link>
       <h2 className="  text-center mt-20 sm:text-6xl text-4xl text-green-500 capitalize underline hover:decoration-4 ">
-        Galary
+        Gallery
       </h2>
 
       <div className=" bg-gray-100 px-8 pt-16 pb-16 relative">
@@ -99,7 +102,7 @@ export default function Galary() {
             role="tabpanel"
             className="tab-content bg-base-100 border-base-300 rounded-box p-6 sm:text-6xl text-red-500"
           >
-            Comming soon
+            Coming soon
           </div>
         </div>
       </div>
