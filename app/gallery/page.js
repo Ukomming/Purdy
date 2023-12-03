@@ -1,9 +1,11 @@
 "use-client"
 import Image from "next/image";
+import Link from "next/link";
+
 export default function Gallery() {
   return (
     <>
-    <a className=" underline text-teal-600 lg:invisible">Back to Home Page </a>
+    <Link href={'/'} className=" underline text-teal-600 lg:invisible">Back to Home Page </Link>
       <h2 className="  text-center mt-20 sm:text-6xl text-4xl text-green-500 capitalize underline hover:decoration-4 ">
         Gallery
       </h2>
