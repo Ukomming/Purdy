@@ -4,7 +4,7 @@ export default function about() {
     <article className=" prose  prose-slate lg:prose-xl  sm:p-24 md:max-w-none">
       <>
         <h2>Working hours</h2>
-        <p className="text-red-500">MONDAY - FRIDAY 7:00AM - 5:00PM </p>
+        <p className="text-red-500 ">MONDAY - FRIDAY 7:00AM - 5:00PM </p>
         <p className="text-red-500">SATURDAYS 7:30AM - 2:00PM</p>
 
         <h1>INTRODUCTION:</h1>
