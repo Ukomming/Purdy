@@ -99,7 +99,7 @@ export default function Galary() {
             role="tabpanel"
             className="tab-content bg-base-100 border-base-300 rounded-box p-6 sm:text-6xl text-red-500"
           >
-            Comming soon
+            Coming soon
           </div>
         </div>
       </div>
