@@ -102,7 +102,15 @@ export default function Gallery() {
             role="tabpanel"
             className="tab-content bg-base-100 border-base-300 rounded-box p-6 sm:text-6xl text-red-500"
           >
-            Coming soon
+            {/* Coming soon */}
+            <iframe width="692" 
+            height="389" 
+            src="https://www.youtube.com/embed/I-xdrH9gXnI" 
+            title="Brief Review of Purdy Natural Herbal Clinic Services - Dr. Albert Zotorvi" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
           </div>
         </div>
       </div>

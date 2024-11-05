@@ -45,7 +45,7 @@ export default function Footer() {
       <nav>
         <header className="footer-title">Follow us</header>
         <div className="lg:flex lg:flex-col lg:gap-2 lg:ml-8 flex flex-row  gap-8">
-          <a href="https://web.facebook.com/profile.php?id=61553721077756">
+          <a href="https://web.facebook.com/profile.php?id=61563265301526">
             <Image
               src={
                 "/social/facebook-network-communication-internet-interaction-svgrepo-com.svg"
@@ -54,28 +54,28 @@ export default function Footer() {
               height={40}
               />
           </a>
-          <a>
+          <a href="https://www.instagram.com/@purdytvgh">
             <Image
               src={"/social/instagram-1-svgrepo-com.svg"}
               width={40}
               height={40}
               />
           </a>
-          <a href="https://www.tiktok.com/@purdyherbal">
+          <a href="https://www.tiktok.com/@purdytvgh">
             <Image
               src={"/social/tiktok-icon-black-1-logo-svgrepo-com.svg"}
               width={40}
               height={40}
               />
           </a>
-          <a href="https://twitter.com/purdyHeabal">
+          <a href="https://www.x.com/@purdytvgh">
             <Image
               src={"/social/twitter-svgrepo-com.svg"}
               width={40}
               height={40}
               />
           </a>
-          <a href="https://www.youtube.com/channel/UCcMdlHGrvxvyKaZta7QiSCQ">
+          <a href="https://www.youtube.com/@PurdyTvgh">
             <Image
               src={"/social/youtube-color-svgrepo-com.svg"}
               width={40}

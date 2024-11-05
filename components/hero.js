@@ -20,7 +20,7 @@ export default function Hero() {
             PURDY NATURAL HERBAL CLINIC
           </p>
           <p
-            className=" capitalize pb-10 text-white  text-2xl  sm:text-4xl 
+            className=" capitalize pb-10 text-white hover:text-green-500 text-2xl  sm:text-4xl 
        underline decoration-2 hover:decoration-4"
           >
             Stay Alive The Natural Way

@@ -22,11 +22,18 @@ export default function About() {
               />
               Location
             </h2>
-            <h1 className="title-font sm:text-2xl text-xl  mb-3 dark:text-black">
+            <h2 className="title-font sm:text-2xl text-xl  mb-3 dark:text-black">
               ADDA KASSEH{" "}
-            </h1>
+            </h2>
             <p className="mb-3 dark:text-black">
               OPPOSITE GREEN HEIGHT HOTEL , NEAR AWILLOW'S HOUSE
+            </p>
+            <br></br>
+            <h2 className="title-font sm:text-2xl text-xl  mb-3 dark:text-black">
+              SOMANYA AKWETEYMAM{" "}
+            </h2>
+            <p className="mb-3 dark:text-black">
+              NEAR THE KASSAPA POLE
             </p>
             <Link
               href="/about"

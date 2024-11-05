@@ -22,6 +22,11 @@ export default function about() {
             {" "}
             ADA KASSEH OPPOSITE GREEN HEIGHT HOTEL, near awillow's house{" "}
           </span>
+          AND
+          <span className=" text-red-500">
+            {" "}
+            SOMANYA AKWETEYMAM, near KASSAPA POLE{" "}
+          </span>
           , we strive to be a leading healthcare provider dedicated to improving
           the well-being of our community.
         </p>
