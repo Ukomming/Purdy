@@ -11,7 +11,7 @@ export default function about() {
         <p>
           <span className="text-red-500">
             {" "}
-            Purdy Natural Herbal And Research Centre
+            Purdy Natural Herbal Clinic
           </span>{" "}
           is a healthcare facility committed to providing comprehensive medical
           services with a focus on herbal remedies and modern diagnostics.
@@ -34,7 +34,7 @@ export default function about() {
         <p>
           At
           <span className="text-red-500">
-            {" "} Purdy Natural Herbal And Research Centre
+            {" "} Purdy Natural Herbal Clinic
           </span>
           , our mission is to offer accessible, effective, and holistic
           healthcare solutions by combining the wisdom of traditional herbal
@@ -47,7 +47,7 @@ export default function about() {
         <p>
           <span className="text-red-500">
             {" "}
-            Purdy Natural Herbal And Research Centre
+            Purdy Natural Herbal Clinic
           </span>{" "}
           provides comprehensive outpatient services, catering to the primary
           healthcare needs of individuals. Our team of experienced medical
@@ -110,7 +110,7 @@ export default function about() {
         <p>
           <span className="text-red-500">
             {" "}
-            Purdy Natural Herbal And Research Centre
+            Purdy Natural Herbal Clinic
           </span>{" "}
           believes in the synergy of nature and science, combining the ancient
           wisdom of herbal medicine with modern diagnostic capabilities. We are
@@ -118,7 +118,7 @@ export default function about() {
           individualized care, education, and empowerment.{" "}At
           <span className="text-red-500">
             {" "}
-            Purdy Natural Herbal And Research Centre
+            Purdy Natural Herbal Clinic
           </span>
           , we understand the importance of community well-being beyond the
           confines of our clinic. In addition to our clinical services, we

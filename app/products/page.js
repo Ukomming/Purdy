@@ -1,29 +1,16 @@
 "use-client"
-import Image from "next/image";
 import Link from "next/link";
 
-export default function Gallery() {
+export default function Products() {
   return (
     <>
     <Link href={'/'} className=" underline text-teal-600 lg:invisible">Back to Home Page </Link>
       <h2 className="  text-center mt-20 sm:text-6xl text-4xl text-green-500 capitalize underline hover:decoration-4 ">
-        Gallery
+        Products
       </h2>
-
-      <div className=" bg-gray-100 px-8 pt-16 pb-16 relative">
-        <div role="tablist" className="tabs tabs-lifted0">
-          <input
-            type="radio"
-            name="my_tabs_2"
-            role="tab"
-            className="tab text-blue-500 underline"
-            aria-label="Picture"
-          />
-          <div
-            role="tabpanel"
-            className="tab-content bg-base-100 border-base-300 rounded-box p-6"
-          >
-            <div className=" ml-40 mr-40 mt-40">
+<br/>
+<br/>
+<div className=" ml-40 mr-40 mt-40">
 
 
 <div className="carousel w-full">
@@ -109,31 +96,6 @@ export default function Gallery() {
   <a href="#item12" className="btn btn-xs">12</a>
   <a href="#item13" className="btn btn-xs">13</a>
 </div>
-          </div>
-
-          <input
-            type="radio"
-            name="my_tabs_2"
-            role="tab"
-            className="tab text-blue-500 underline"
-            aria-label="Videos"
-          />
-          <div
-            role="tabpanel"
-            className="tab-content bg-base-100 border-base-300 rounded-box p-6 sm:text-6xl text-red-500"
-          >
-            {/* Coming soon */}
-            <iframe width="250" 
-            height="389" 
-            src="https://www.youtube.com/embed/I-xdrH9gXnI" 
-            title="Brief Review of Purdy Natural Herbal Clinic Services - Dr. Albert Zotorvi" 
-            frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerPolicy="strict-origin-when-cross-origin" 
-            allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
     </>
   );
 }

@@ -13,7 +13,7 @@ export default function Footer() {
           />
 
         <p>
-          Purdy Natural Herbal Clinic And Research Centre.
+          Purdy Natural Herbal Clinic 
           <br />
           Live the Natural Way
         </p>
@@ -45,7 +45,7 @@ export default function Footer() {
       <nav>
         <header className="footer-title">Follow us</header>
         <div className="lg:flex lg:flex-col lg:gap-2 lg:ml-8 flex flex-row  gap-8">
-          <a href="https://web.facebook.com/profile.php?id=61563265301526">
+          <a href="https://web.facebook.com/purdynaturalherbalclinic">
             <Image
               src={
                 "/social/facebook-network-communication-internet-interaction-svgrepo-com.svg"
@@ -54,28 +54,28 @@ export default function Footer() {
               height={40}
               />
           </a>
-          <a href="https://www.instagram.com/@purdytvgh">
+          <a href="https://www.instagram.com/purdynaturalherbalclinic/">
             <Image
               src={"/social/instagram-1-svgrepo-com.svg"}
               width={40}
               height={40}
               />
           </a>
-          <a href="https://www.tiktok.com/@purdytvgh">
+          <a href="https://www.tiktok.com/@purdynaturalherbalclinic?is_from_webapp=1&sender_device=pc">
             <Image
               src={"/social/tiktok-icon-black-1-logo-svgrepo-com.svg"}
               width={40}
               height={40}
               />
           </a>
-          <a href="https://www.x.com/@purdytvgh">
+          <a href="https://x.com/PurdyHerbal/">
             <Image
               src={"/social/twitter-svgrepo-com.svg"}
               width={40}
               height={40}
               />
           </a>
-          <a href="https://www.youtube.com/@PurdyTvgh">
+          <a href="https://www.youtube.com/channel/UCy6uO3XvByo94ItziGH8Jpg">
             <Image
               src={"/social/youtube-color-svgrepo-com.svg"}
               width={40}
@@ -95,12 +95,12 @@ export default function Footer() {
               />
             {" "}
             <span className="ml-2">
-            albertpudy@gmail.com
+            purdynaturalherbalclinic@gmail.com
             </span>
           </a>
         </h2>
 
-        <h3>&copy; Copyright 3023 Purdy Nartural Herbal And Research Centre</h3>
+        <h3>&copy; Copyright 2023 Purdy Nartural Herbal Clinic</h3>
         <h4>
           {" "}
           Developed by <a href="https://github.com/Ukomming/">Mr Upkomming</a>

@@ -92,7 +92,7 @@ export default function About() {
             </h1>
             <p className="mb-3 dark:text-black">0548349588</p>
             <h1 className="title-font sm:text-2xl text-xl mb-3 text-green-500">Email</h1>
-            <p className="dark:text-black">albertpurdy@gmail.com</p>
+            <p className="dark:text-black">purdynaturalherbalclinic@gmail.com</p>
             <p className="mb-3"></p>
             <Link
               href="/about"

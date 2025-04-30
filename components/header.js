@@ -36,6 +36,9 @@ export default function Header() {
               <Link href={"/services"}>Our Services</Link>
             </li>
             <li>
+              <Link href={"/products"}>Our Products</Link>
+            </li>
+            <li>
               <a>Gallery</a>
               <ul className="p-2">
                 <li>
@@ -61,6 +64,9 @@ export default function Header() {
           </li>
           <li>
             <Link href={"/services"}>Our Services</Link>
+          </li>
+          <li>
+            <Link href={"/products"}>Our Products</Link>
           </li>
 
           <li tabIndex={0}>
