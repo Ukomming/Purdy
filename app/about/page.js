@@ -4,14 +4,14 @@ export default function about() {
     <article className=" prose  prose-slate lg:prose-xl  sm:p-24 md:max-w-none">
       <>
         <h2>Working hours</h2>
-        <p className="text-red-500">MONDAY - FRIDAY 7:00AM - 5:00PM </p>
+        <p className="text-red-500 ">MONDAY - FRIDAY 7:00AM - 5:00PM </p>
         <p className="text-red-500">SATURDAYS 7:30AM - 2:00PM</p>
 
         <h1>INTRODUCTION:</h1>
         <p>
           <span className="text-red-500">
             {" "}
-            Purdy Natural Herbal And Research Centre
+            Purdy Natural Herbal Clinic
           </span>{" "}
           is a healthcare facility committed to providing comprehensive medical
           services with a focus on herbal remedies and modern diagnostics.
@@ -22,6 +22,11 @@ export default function about() {
             {" "}
             ADA KASSEH OPPOSITE GREEN HEIGHT HOTEL, near awillow's house{" "}
           </span>
+          AND
+          <span className=" text-red-500">
+            {" "}
+            SOMANYA AKWETEYMAM, near KASSAPA POLE{" "}
+          </span>
           , we strive to be a leading healthcare provider dedicated to improving
           the well-being of our community.
         </p>
@@ -29,7 +34,7 @@ export default function about() {
         <p>
           At
           <span className="text-red-500">
-            {" "} Purdy Natural Herbal And Research Centre
+            {" "} Purdy Natural Herbal Clinic
           </span>
           , our mission is to offer accessible, effective, and holistic
           healthcare solutions by combining the wisdom of traditional herbal
@@ -42,7 +47,7 @@ export default function about() {
         <p>
           <span className="text-red-500">
             {" "}
-            Purdy Natural Herbal And Research Centre
+            Purdy Natural Herbal Clinic
           </span>{" "}
           provides comprehensive outpatient services, catering to the primary
           healthcare needs of individuals. Our team of experienced medical
@@ -105,7 +110,7 @@ export default function about() {
         <p>
           <span className="text-red-500">
             {" "}
-            Purdy Natural Herbal And Research Centre
+            Purdy Natural Herbal Clinic
           </span>{" "}
           believes in the synergy of nature and science, combining the ancient
           wisdom of herbal medicine with modern diagnostic capabilities. We are
@@ -113,7 +118,7 @@ export default function about() {
           individualized care, education, and empowerment.{" "}At
           <span className="text-red-500">
             {" "}
-            Purdy Natural Herbal And Research Centre
+            Purdy Natural Herbal Clinic
           </span>
           , we understand the importance of community well-being beyond the
           confines of our clinic. In addition to our clinical services, we

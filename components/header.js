@@ -36,13 +36,16 @@ export default function Header() {
               <Link href={"/services"}>Our Services</Link>
             </li>
             <li>
-              <a>Galary</a>
+              <Link href={"/products"}>Our Products</Link>
+            </li>
+            <li>
+              <a>Gallery</a>
               <ul className="p-2">
                 <li>
-                  <Link href={"/galary"}>Pictures</Link>
+                  <Link href={"/gallery"}>Pictures</Link>
                 </li>
                 <li>
-                  <Link href={"/galary"}>Videos</Link>
+                  <Link href={"/gallery"}>Videos</Link>
                 </li>
               </ul>
             </li>
@@ -62,16 +65,19 @@ export default function Header() {
           <li>
             <Link href={"/services"}>Our Services</Link>
           </li>
+          <li>
+            <Link href={"/products"}>Our Products</Link>
+          </li>
 
           <li tabIndex={0}>
             <details>
-              <summary>Galary</summary>
+              <summary>Gallery</summary>
               <ul className="p-2">
                 <li>
-                  <Link href={"/galary"}>Pictures</Link>
+                  <Link href={"/gallery"}>Pictures</Link>
                 </li>
                 <li>
-                  <Link href={"/galary"}>Videos</Link>
+                  <Link href={"/gallery"}>Videos</Link>
                 </li>
               </ul>
             </details>

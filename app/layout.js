@@ -8,12 +8,12 @@ import Top from "@/components/top";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Purdy Nartural Herbal And Research Centre",
+  title: "Purdy Nartural Herbal Clinic",
   icons: {
     icon: '/purdy.jpg', // /public path
   },
   description:
-    "Purdy Nartural Herbal And Research Centre is a healthcare facility committed to providing comprehensive medical services with a focus on herbal remedies and modern diagnostics.Established with the vision of promoting natural healing",
+    "Purdy Nartural Herbal Clinic is a healthcare facility committed to providing comprehensive medical services with a focus on herbal remedies and modern diagnostics.Established with the vision of promoting natural healing",
 };
 
 export default function RootLayout({ children }) {
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} `}>
         <Header />
         {children}
-        <Top/>
+        <Top className=' w-1/2'/>
         <Footer />
       </body>
     </html>

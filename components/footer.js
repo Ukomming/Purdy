@@ -10,10 +10,10 @@ export default function Footer() {
           width={50}
           height={50}
           className="fill-current py-3  rounded-md"
-        />
+          />
 
         <p>
-          Purdy Natural Herbal Clinic And Research Centre.
+          Purdy Natural Herbal Clinic 
           <br />
           Live the Natural Way
         </p>
@@ -44,43 +44,43 @@ export default function Footer() {
       </nav>
       <nav>
         <header className="footer-title">Follow us</header>
-        <div className="flex flex-col gap-2 ml-8 ">
-          <a href="https://web.facebook.com/profile.php?id=61553721077756">
+        <div className="lg:flex lg:flex-col lg:gap-2 lg:ml-8 flex flex-row  gap-8">
+          <a href="https://web.facebook.com/purdynaturalherbalclinic">
             <Image
               src={
                 "/social/facebook-network-communication-internet-interaction-svgrepo-com.svg"
               }
               width={40}
               height={40}
-            />
+              />
           </a>
-          <a>
+          <a href="https://www.instagram.com/purdynaturalherbalclinic/">
             <Image
               src={"/social/instagram-1-svgrepo-com.svg"}
               width={40}
               height={40}
-            />
+              />
           </a>
-          <a href="https://www.tiktok.com/@purdyherbal">
+          <a href="https://www.tiktok.com/@purdynaturalherbalclinic?is_from_webapp=1&sender_device=pc">
             <Image
               src={"/social/tiktok-icon-black-1-logo-svgrepo-com.svg"}
               width={40}
               height={40}
-            />
+              />
           </a>
-          <a href="https://twitter.com/purdyHeabal">
+          <a href="https://x.com/PurdyHerbal/">
             <Image
               src={"/social/twitter-svgrepo-com.svg"}
               width={40}
               height={40}
-            />
+              />
           </a>
-          <a href="https://www.youtube.com/channel/UCcMdlHGrvxvyKaZta7QiSCQ">
+          <a href="https://www.youtube.com/channel/UCy6uO3XvByo94ItziGH8Jpg">
             <Image
               src={"/social/youtube-color-svgrepo-com.svg"}
               width={40}
               height={40}
-            />
+              />
           </a>
         </div>
       </nav>
@@ -92,15 +92,15 @@ export default function Footer() {
               src={"/social/gmail-svgrepo-com.svg"}
               width={30}
               height={30}
-            />
+              />
             {" "}
             <span className="ml-2">
-            albertpudy@gmail.com
+            purdynaturalherbalclinic@gmail.com
             </span>
           </a>
         </h2>
 
-        <h3>&copy; Copyright 3023 Purdy Nartural Herbal And Research Centre</h3>
+        <h3>&copy; Copyright 2023 Purdy Nartural Herbal Clinic</h3>
         <h4>
           {" "}
           Developed by <a href="https://github.com/Ukomming/">Mr Upkomming</a>
